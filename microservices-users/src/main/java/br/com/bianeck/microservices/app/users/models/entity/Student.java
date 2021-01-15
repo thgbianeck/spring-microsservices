@@ -1,10 +1,12 @@
 package br.com.bianeck.microservices.app.users.models.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Date;
 
+@Builder
 @Entity
 @Data
 @Table(name = "students")
